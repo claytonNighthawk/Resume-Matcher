@@ -143,6 +143,11 @@ Follow these steps to set up the environment and run the application.
    ```bash
    pip install -r requirements.txt
    ```
+   May have to run
+   ```bash
+   $ python -c "import nltk; nltk.download('punkt')"
+   ```
+   to download the language processing dependency and possibly create a `PY3_tab` as well as a `PY3` directory.
 
 6. Prepare Data:
 
